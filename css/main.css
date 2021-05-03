@@ -113,22 +113,29 @@ header,
 footer {
   background-color: #222;
   height: 80px;
-  width: 100%;
+  width: 200%;
 }
 
 main {
   background-color: #ccc;
-  height: 250px;
+  height: 600px;
   width: 100%;
 }
 
 header,
 footer,
 main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
 }
 
 .flex-container {
+  display: flex;
+  align-content: center;
+  flex-flow: wrap;
+  justify-content: space-between;
 
 }
 
@@ -138,7 +145,12 @@ main {
   font-size: 1.6em;
   background-color: #f16059;
   width: 30%;
-  height: 200px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
