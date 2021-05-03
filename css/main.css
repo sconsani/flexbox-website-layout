@@ -153,6 +153,18 @@ main {
   margin-bottom: 50px;
 }
 
+#header-1 {
+  width: 50%;
+
+}
+
+#header-2 {
+  width: 50%;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
